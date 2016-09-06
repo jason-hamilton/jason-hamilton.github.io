@@ -1,0 +1,100 @@
+body {	
+	background: #97C6E8;
+}
+
+.clear {
+	clear: both;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	font-size: 30px;
+	color: #000;
+	font-weight: 700;
+	letter-spacing: .1em;
+	border-bottom: 5px solid #000;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: .1em;
+	line-height: 26px;
+}
+
+a {
+	color: #A82763;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #97C6E8;
+	cursor: pointer;
+}
+
+.wrap {
+	background-color: #fff;
+	padding: 50px;
+	width: 60%;
+	margin: 100px auto;
+}
+
+.profile-social-links {
+	margin: 5px 0;
+	padding: 0px;
+}
+
+.profile-social-links li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0 15px 0 0;
+	font-size: 30px;
+}
+
+.inner-wrap {
+	width: 40%;
+	float: left;
+	margin-right: 10%;
+}
+
+#bio-wrap {
+	width: 50%;
+	float: left;
+}
+
+#title {
+	display: block;
+	margin: 0 auto;
+	width: 310px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24pt;
+	font-weight: bold;
+}
+
+img#harambe {
+	display: block;
+	max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+	#profile-wrap {
+		width: 100%!important;
+		float: none!important;
+		margin-right: 0!important;
+	}
+
+	#bio-wrap {
+		width: 100%!important;
+		float: none!important;
+		margin-top: 50px!important; 
+	}
+}
